@@ -98,7 +98,7 @@ id_type get_id(id_tuple tuple);
 #if DATATYPE == 1
   typedef float data_type;
 #elif DATATYPE == 2
-  typedef ap_int<32> data_type;
+  typedef int64_t data_type;
 #else
   typedef double data_type;
 #endif

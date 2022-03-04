@@ -71,14 +71,14 @@ void raw_dep_core(stream<packet_type_id> &in, stream<double> &out ){
   flush: for(unsigned i = 0; i < MEMORY_SIZE; ++i) {
    // if using BRAM in read-first mode, only one operation is needed
     auto elem = memory[i];
-    memory[i] = 0;
+    memory[i] = MEM_INIT;
     out<< elem;
   }
 
 }
 
 
-void raw_dep(stream<packet_type> &in, stream<double> &out ){
+void raw_dep(stream<packet_type> &in, stream<data_type> &out ){
   stream<packet_type_id> packet_with_id;
   START_SW_ONLY_LOOP(! in.empty())
     get_id_stage(in, packet_with_id );
