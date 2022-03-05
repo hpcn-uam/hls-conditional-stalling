@@ -6,7 +6,7 @@ parser.add_argument('parts',metavar='parts',type=str,nargs='+',
         help='list of parts. Valid parts: (zcu104,pynq_z2)')
 
 OPERATIONS = [(0,"add"),(1,"mul"),(2,"div")]
-TYPES = [(0,"double"),(1,"float"),(2,"int32")]
+TYPES = [(0,"double"),(1,"float"),(2,"int64")]
 
 args = parser.parse_args()
 PARTs = args.parts

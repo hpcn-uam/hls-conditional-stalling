@@ -105,7 +105,7 @@ switch -exact -- $DATATYPE {
     set type_name "float"
   }
   2 {
-    set type_name "int32"
+    set type_name "int64"
   }
   default {
     puts "Error: DATATYPE($DATATYPE) not supported"

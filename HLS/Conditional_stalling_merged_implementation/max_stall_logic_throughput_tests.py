@@ -2,7 +2,7 @@
 import subprocess
 
 OPERATIONS = [(0,"add"),(1,"mul"),(2,"div")]
-TYPES = [(0,"double"),(1,"float"),(2,"int32")]
+TYPES = [(0,"double"),(1,"float"),(2,"int64")]
 
 OP_CODE = 0
 TYPE_CODE = 0

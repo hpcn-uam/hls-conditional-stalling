@@ -34,5 +34,5 @@ Merged vs Stage implementations:
 - IMPL_PERIOD: frequency target for RTL synth & impl.
 - DEP_DIST: Read (1 cycle) + processing Latencies
 - OP_CODE: 0 (add) | 1(mul) | 2 (div)
-- DATATYPE: 0 (double) | 1(float) | 2 (int32)
+- DATATYPE: 0 (double) | 1(float) | 2 (int64)
 - ID_FACTOR: The address size used by the conditional stalling logic is 8*ID_FACTOR bits (memory size is fixed to 2^8 entries to decouple frequency penalties associated with bigger memories)
