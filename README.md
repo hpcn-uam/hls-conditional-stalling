@@ -1,7 +1,7 @@
-# Boosting performance of HLS dataflows with data dependencies using fast conditional stalling
+# Enhancing conditional stalling to boost performance of stream-processing logic with RAW dependencies
 **Publication:**
-- Submitted to: IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS—II: EXPRESS BRIEFS, currently under revision
-- Title: "Boosting performance of HLS dataflows with data dependencies using fast conditional stalling"
+- Journal: IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS—II: EXPRESS BRIEFS
+- Title: "Enhancing conditional stalling to boost performance of stream-processing logic with RAW dependencies"
 - Authors: Tobías Alonso, Gustavo Sutter, Sergio Lopez-Buedo, and Jorge E. López de Vergara
 
 **Objective of the repository:**
